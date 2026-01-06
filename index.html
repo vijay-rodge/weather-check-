@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Weather JSON Output</title>
+
+    <!-- <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: monospace;
+        }
+        pre {
+            background: #000;
+            padding: 15px;
+            width: 500px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+         /* textarea {
+            width: 300px;
+            height: 20px;
+            font-size: 16px;
+            padding: 5px;
+        } */
+        button {
+            padding: 8px 10px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="heading">Check Weather</div>
+   
+
+<div class="container">
+    <h2>Weather Dashboard</h2>
+    <textarea id="cityInput" placeholder="Enter city name..."></textarea>
+    <button onclick="fetchWeather()">Get Weather</button>
+    
+    <div id="weather"></div> 
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
